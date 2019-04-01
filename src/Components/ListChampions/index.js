@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Champion from '../Champion';
+import './ListChampions.css';
 
 class ListChampions extends Component {
 
@@ -46,7 +47,7 @@ class ListChampions extends Component {
 
         return (
             <div>
-                <ul>
+                <ul className='list-champs-wrapper'>
                     {champsComponent}
                 </ul>
             </div>

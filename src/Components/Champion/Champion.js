@@ -11,7 +11,7 @@ class Champion extends Component {
 
     render() {
         return (
-            <li className='li-wrapper'>
+            <li className={`li-wrapper ${this.props.visible ? '' : 'hidden'}`}>
                 <div className='champ-wrapper'>
                     <img className={'champ-image'} src={this.props.image_url} alt={this.props.name}/>
                     <div>
@@ -26,7 +26,7 @@ class Champion extends Component {
 Champion.propTypes = {
     name: PropTypes.string.isRequired,
     image_url: PropTypes.string.isRequired,
-    // visible: PropTypes.bool.isRequired
+    visible: PropTypes.bool.isRequired
 }
 
 export default Champion;

@@ -1,5 +1,4 @@
 import {createStore, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk';
 import {rootReducer} from './Redux/Reducers';
 import {mw} from './Redux/Middleware';
 import * as Type from './Redux/Types';

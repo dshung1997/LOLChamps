@@ -20,8 +20,8 @@ class SearchBox extends Component {
 
     render() {
         return (
-            <div>
-                <input type="text" name="name" value={this.state.text} onChange={this.handleChange.bind(this)}/>
+            <div className="searchbox-container">
+                <input className="form-control" type="text" placeholder="Search" aria-label="Search" name="name" value={this.state.text} onChange={this.handleChange.bind(this)}/>
             </div>
         );
     }

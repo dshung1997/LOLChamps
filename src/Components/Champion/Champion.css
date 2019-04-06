@@ -7,7 +7,10 @@
     text-align: center;
     margin: 10px 10px;
     padding: 15px;
-    background-color: #5f27cd;
+    background-color: #8395a7;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
 }
 
 .li-wrapper {
